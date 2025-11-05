@@ -1,0 +1,14 @@
+artifact_uri: /content/predictive_maintenance/mlruns/820067267095547605/a326bd37c036488e8df5dc1dbb918312/artifacts
+end_time: 1762331703521
+entry_point_name: ''
+experiment_id: '820067267095547605'
+lifecycle_stage: active
+run_id: a326bd37c036488e8df5dc1dbb918312
+run_name: AdaBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331630271
+status: 3
+tags: []
+user_id: root

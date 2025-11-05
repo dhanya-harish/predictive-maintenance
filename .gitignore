@@ -1,0 +1,12 @@
+# Ignore large model and artifact files
+artifacts/*.pkl
+mlruns/**/*.pkl
+*.pkl
+*.h5
+*.pt
+*.joblib
+*.zip
+*.tar
+*.tar.gz
+__pycache__/
+.ipynb_checkpoints/

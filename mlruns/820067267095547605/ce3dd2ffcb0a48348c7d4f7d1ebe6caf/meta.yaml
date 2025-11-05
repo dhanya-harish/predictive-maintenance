@@ -1,0 +1,14 @@
+artifact_uri: /content/predictive_maintenance/mlruns/820067267095547605/ce3dd2ffcb0a48348c7d4f7d1ebe6caf/artifacts
+end_time: 1762331389244
+entry_point_name: ''
+experiment_id: '820067267095547605'
+lifecycle_stage: active
+run_id: ce3dd2ffcb0a48348c7d4f7d1ebe6caf
+run_name: Bagging
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331240569
+status: 3
+tags: []
+user_id: root

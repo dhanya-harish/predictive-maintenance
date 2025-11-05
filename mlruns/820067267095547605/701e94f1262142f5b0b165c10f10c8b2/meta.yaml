@@ -1,0 +1,14 @@
+artifact_uri: /content/predictive_maintenance/mlruns/820067267095547605/701e94f1262142f5b0b165c10f10c8b2/artifacts
+end_time: 1762331240559
+entry_point_name: ''
+experiment_id: '820067267095547605'
+lifecycle_stage: active
+run_id: 701e94f1262142f5b0b165c10f10c8b2
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331218085
+status: 3
+tags: []
+user_id: root

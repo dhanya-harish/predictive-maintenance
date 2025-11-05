@@ -1,0 +1,14 @@
+artifact_uri: /content/predictive_maintenance/mlruns/820067267095547605/a8053fea547a482fb91dd14d2e89637f/artifacts
+end_time: 1762317565684
+entry_point_name: ''
+experiment_id: '820067267095547605'
+lifecycle_stage: active
+run_id: a8053fea547a482fb91dd14d2e89637f
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762317282973
+status: 3
+tags: []
+user_id: root

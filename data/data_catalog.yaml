@@ -1,0 +1,32 @@
+dataset_name: Predictive Maintenance (Engine Data)
+owner: <your team / email>
+source_path: /content/predictive_maintenance/data/engine_data.csv
+version_date: 2025-11-05
+license: internal/educational
+refresh_cadence: monthly (planned)
+target_column: None
+key_columns: []
+pii_phi: none expected
+schema_file: /content/predictive_maintenance/data/schema_engine_data.json
+columns:
+  - name: Engine rpm
+    dtype: int64
+    example: 700
+  - name: Lub oil pressure
+    dtype: float64
+    example: 2.493591821
+  - name: Fuel pressure
+    dtype: float64
+    example: 11.79092738
+  - name: Coolant pressure
+    dtype: float64
+    example: 3.178980794
+  - name: lub oil temp
+    dtype: float64
+    example: 84.14416293
+  - name: Coolant temp
+    dtype: float64
+    example: 81.6321865
+  - name: Engine Condition
+    dtype: int64
+    example: 1

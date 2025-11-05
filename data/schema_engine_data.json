@@ -1,0 +1,37 @@
+{
+  "title": "EngineDataSchema",
+  "type": "object",
+  "properties": {
+    "Engine rpm": {
+      "type": "integer"
+    },
+    "Lub oil pressure": {
+      "type": "number"
+    },
+    "Fuel pressure": {
+      "type": "number"
+    },
+    "Coolant pressure": {
+      "type": "number"
+    },
+    "lub oil temp": {
+      "type": "number"
+    },
+    "Coolant temp": {
+      "type": "number"
+    },
+    "Engine Condition": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Engine rpm",
+    "Lub oil pressure",
+    "Fuel pressure",
+    "Coolant pressure",
+    "lub oil temp",
+    "Coolant temp",
+    "Engine Condition"
+  ],
+  "additionalProperties": true
+}
