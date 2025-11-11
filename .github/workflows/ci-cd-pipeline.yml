@@ -32,12 +32,7 @@ jobs:
 
     - name: Verify imports
       run: |
-        python -c "import numpy, pandas, streamlit; print('✅ All imports successful!')"
-
-    - name: List files
-      run: |
-        echo "Repository structure:"
-        find . -type f -name "*.py" -o -name "*.txt" -o -name "*.yml" | grep -v ".ipynb" | sort
+        python -c "import numpy, pandas, streamlit; print('All imports successful!')"
 
   deploy-hf:
     name: Deploy to Hugging Face
@@ -62,26 +57,4 @@ jobs:
 
     - name: Deploy to Hugging Face Space
       run: |
-        echo "Starting Hugging Face deployment..."
-        python << 'EOF'
-        import os
-        from huggingface_hub import HfApi
-        
-        HF_TOKEN = os.environ.get("HF_TOKEN")
-        if not HF_TOKEN:
-            print("HF_TOKEN not set")
-            exit(1)
-            
-        api = HfApi(token=HF_TOKEN)
-        space_id = "dhanya-harish/predictive-maintenance-app"
-        
-        # Upload all files except .git and .github
-        api.upload_folder(
-            folder_path=".",
-            repo_id=space_id,
-            repo_type="space",
-            commit_message="Auto-deploy via GitHub Actions",
-            ignore_patterns=[".git/**", ".github/**"]
-        )
-        print(f"Deployed to: https://huggingface.co/spaces/{space_id}")
-        EOF
+        python .github/scripts/deploy_hf.py
